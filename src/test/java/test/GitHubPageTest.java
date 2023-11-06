@@ -20,7 +20,7 @@ public class GitHubPageTest {
     }
 
     @Test
-    void SuccessTest() {
+    void successTest() {
         open("https://github.com/");
         $("ul.d-lg-flex.list-style-none")
                 .$(byText("Solutions")).hover();
